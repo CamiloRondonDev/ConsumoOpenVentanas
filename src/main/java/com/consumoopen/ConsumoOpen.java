@@ -15,16 +15,18 @@ public class ConsumoOpen {
         //Vista vista = new Vista();
         //Vista02 vista = new Vista02();     
        // VistaContenido vistaContenido = new VistaContenido();  
-       Colores colores = new Colores();
-        
+       //Colores colores = new Colores();
+        //EventosBotones02 eventosBotones02 = new EventosBotones02();
+        //EventosBotones eventosBotones = new EventosBotones();
+
+     //EventoTeclado eventoTeclado = new EventoTeclado();
+      //  EventoRaton eventoRaton = new EventoRaton();
+        FocosEventoConCuadrosTexto focosEventoConCuadrosTexto = new FocosEventoConCuadrosTexto();
+
         String usename = "apikey";
         String key = "dda3996c50ee054b956e85026764d4668ad954221a45f5187052430f137ebf9f" ;
-        
-         //solicitar peticion 
-         
-    
-        
- 
+
+
         try {
     
         URL url = new URL("https://jsonplaceholder.typicode.com/comments"); //json con arra 
