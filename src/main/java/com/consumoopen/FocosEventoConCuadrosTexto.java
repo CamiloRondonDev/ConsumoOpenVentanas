@@ -11,20 +11,19 @@ public class FocosEventoConCuadrosTexto extends JFrame {
         MarcoFoco marcoFoco = new MarcoFoco();
 
 
-
     }
-    public class MarcoFoco extends JFrame{
+
+
+    public class MarcoFoco extends JFrame{ //clase que nos constryye el marco
         public MarcoFoco (){
             setVisible(true);
             setBounds(300,300,600,450);
             add (new LaminaFoco());
         }
 
-
-
      }
 
-     class LaminaFoco extends JPanel {
+     class LaminaFoco extends JPanel { //lamina es en la que podemos poner los botones
 
         public void paintComponent(Graphics g){
             super.paintComponent(g);
@@ -42,7 +41,6 @@ public class FocosEventoConCuadrosTexto extends JFrame {
             LanzaFocos elFoco = new LanzaFocos();
             cuadro1.addFocusListener(elFoco);
 
-
         }
 
          private class LanzaFocos implements FocusListener {
@@ -51,7 +49,6 @@ public class FocosEventoConCuadrosTexto extends JFrame {
              @Override
              public void focusGained(FocusEvent e) { // cuando lo gane //el foco es cuando tenemos la barrita en el cuadro de texto lista para escribir
                  System.out.println("has ganado el foco");
-
 
              }
 
@@ -62,11 +59,9 @@ public class FocosEventoConCuadrosTexto extends JFrame {
              }
          }
 
-
         JTextField cuadro1 ;
         JTextField cuadro2;
 
     }
-
 
 }

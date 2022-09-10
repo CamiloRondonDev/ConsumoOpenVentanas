@@ -21,8 +21,9 @@ public class ConsumoOpen {
 
      //EventoTeclado eventoTeclado = new EventoTeclado();
       //  EventoRaton eventoRaton = new EventoRaton();
-        FocosEventoConCuadrosTexto focosEventoConCuadrosTexto = new FocosEventoConCuadrosTexto();
+      //  FocosEventoConCuadrosTexto focosEventoConCuadrosTexto = new FocosEventoConCuadrosTexto();
 
+        MultiplesVentanas multiplesVentanas = new MultiplesVentanas();
         String usename = "apikey";
         String key = "dda3996c50ee054b956e85026764d4668ad954221a45f5187052430f137ebf9f" ;
 
